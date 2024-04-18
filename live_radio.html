@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Tv Channel</title>
+    <link rel="icon" href="assets/radio_favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+ <link rel="stylesheet" href="css/fm_style.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <span class="logo-name">Live Tv Channel</span>
+      </div>
+
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name">Live Tv Channel</span>
+        </div>
+
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <a href="index.html" class="nav-link">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="link">Home</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="live_tv.html" class="nav-link">
+                <i class="bx bx-tv icon"></i>
+                <span class="link">Live TV</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="live_radio.html" class="nav-link">
+                <i class="bx bx-radio icon"></i>
+                <span class="link">FM Radio</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="notification.html" class="nav-link">
+                <i class="bx bx-bell icon"></i>
+                <span class="link">Notification</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" class="nav-link" id="openYouTubeChannel">
+                <i class="bx bxl-youtube icon"></i>
+                <span class="link">YouTube</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="bottom-cotent">
+            <li class="list">
+              <a href="setting.html" class="nav-link">
+                <i class="bx bx-cog icon"></i>
+                <span class="link">Settings</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" class="nav-link" id="exitButton">
+                <i class="bx bx-log-out icon"></i>
+                <span class="link">Exit</span>
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="overlay"></section>
+
+
+
+
+<div class="music-player">
+  <img id="album-cover" class="album-cover" src="default_album_cover.jpg" alt="Album Cover">
+  <audio controls>
+    <source src="ooooooo" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+
+  <section id="channel-list">
+        <ull>
+            <li>
+                <a href="#" onclick="changeRadio('radio1')" class="radio-button">
+                    <img src="assets/jago_fm.png" alt="Radio 1">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio2')" class="radio-button">
+                    <img src="assets/radio_foorti.png" alt="Radio 2">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio3')" class="radio-button">
+                    <img src="assets/abc_radio.png" alt="Radio 3">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio4')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/27232/logo/240x240/mobile_logo_320294001679201065.png" alt="Radio 4">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio5')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/343/logo/240x240/mobile_logo_496322001666780228.png" alt="Radio 5">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio6')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/352/logo/240x240/mobile_logo_612341001666782969.png" alt="Radio 6">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio7')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/613/logo/240x240/mobile_logo_192652001655891524.png" alt="Radio 7">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio8')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/610/logo/240x240/mobile_logo_677105001655891492.png" alt="Radio 8">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio9')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/18093/logo/240x240/mobile_logo_868363001673181438.png" alt="Radio 9">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio10')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/340/logo/240x240/mobile_logo_094417001655891123.png" alt="Radio 10">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio11')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/27159/logo/240x240/mobile_logo_740957001679201029.png" alt="Radio 11">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio12')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/612/logo/240x240/mobile_logo_091186001666784752.png" alt="Radio 12">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio13')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/41/logo/240x240/mobile_logo_811238001673183089.png" alt="Radio 13">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio14')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/804/logo/240x240/mobile_logo_370803001655891689.png" alt="Radio 14">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio15')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/274798/logo/240x240/mobile_logo_356775001706617066.png" alt="Radio 15">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio16')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/2420/logo/240x240/mobile_logo_688156001666785674.png" alt="Radio 16">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio17')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/3/logo/240x240/mobile_logo_694865001655890816.png" alt="Radio 17">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio18')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/2505/logo/240x240/mobile_logo_200057001655891962.png" alt="Radio 18">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio19')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/46/logo/240x240/mobile_logo_222968001673182917.png" alt="Radio 19">
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="changeRadio('radio20')" class="radio-button">
+                    <img src="https://images.toffeelive.com/images/program/2434/logo/240x240/mobile_logo_464854001655891908.png" alt="Radio 20">
+                </a>
+            </li>
+        </ull>
+    </section>
+
+    <script src="js/fm_script.js"></script>
+  </body>
+</html>
