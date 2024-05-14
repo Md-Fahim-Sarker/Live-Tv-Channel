@@ -69,7 +69,7 @@ function changeChannel(channel) {
             liveStreamUrl = 'assets/Coming_soon.mp4';
             break;
         case 'channel11':
-            liveStreamUrl = 'assets/Coming_soon.mp4';  // Replace with the actual URL for Channel 11
+            liveStreamUrl = 'https://amg01448-samsungin-pogo-samsungin-dzccl.amagi.tv/playlist/amg01448-samsungin-pogo-samsungin/playlist.m3u8';  // Replace with the actual URL for Channel 11
             break;
         case 'channel12':
             liveStreamUrl = 'assets/Coming_soon.mp4';  // Replace with the actual URL for Channel 12
