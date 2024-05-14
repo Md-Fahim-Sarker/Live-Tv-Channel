@@ -48,7 +48,7 @@ function changeChannel(channel) {
             liveStreamUrl = 'assets/Coming_soon.mp4';
             break;
         case 'channel4':
-            liveStreamUrl = 'assets/Coming_soon.mp4';
+            liveStreamUrl = 'https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/playlist.m3u8';
             break;
         case 'channel5':
             liveStreamUrl = 'assets/Coming_soon.mp4';
